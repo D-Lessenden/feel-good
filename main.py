@@ -14,5 +14,5 @@ class MainApp(App):
     def build(self):
         return RootWidget()
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     MainApp().run()
