@@ -16,7 +16,7 @@ class LoginScreen(Screen):
         if username in users and users[username]['password'] == password:
             self.manager.current = 'login_screen_success'
         else:
-            self.ids.login_wrong = "Wrong username or password"
+            self.ids.login_wrong = "Wrong username or password!"
 
 
 class RootWidget(ScreenManager):
